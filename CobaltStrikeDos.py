@@ -849,7 +849,7 @@ if __name__ == '__main__':
     start_time = time.time()
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     if len(sys.argv) == 1:
-        print('Usage: python3 CobaltStrike.py https://1.1.1.1<:443> <ab2h>')
+        print('Usage: python3 CobaltStrike.py https://1.1.1.1<:443> <stager path>')
         exit()
     argv_path = str(sys.argv[2]) if len(sys.argv) == 3 else ''
     argv_url = str(sys.argv[1])
