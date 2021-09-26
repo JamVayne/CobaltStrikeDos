@@ -1,9 +1,9 @@
-A denial of service (DoS) vulnerability (CVE-2021-36798) was found in  Cobalt Strike. The vulnerability was fixed in the scope of the 4.4  release. More information can be found [here](https://blog.cobaltstrike.com/2021/08/04/cobalt-strike-dos-vulnerability-cve-2021-36798/).
+A denial of service (DoS) vulnerability (CVE-2021-36798) was found in  Cobalt Strike. The vulnerability was fixed in the scope of the 4.4  release. More information can be found [here](https://blog.cobaltstrike.com/2021/08/04/cobalt-strike-dos-vulnerability-cve-2021-36798/)
 
 ## Usage
 
 ```
-python3 CobaltStrike.py https://1.1.1.1<:443> <stager path>
+python3 CobaltStrikeDos.py https://1.1.1.1<:443> <stager path>
 ```
 
 ```
